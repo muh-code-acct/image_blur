@@ -16,7 +16,7 @@ class Image
       h.times do 
         row = []
         w.times do |color|
-          color = rand(9)
+          color = rand(2)
           row << color
         end
           @height << row
